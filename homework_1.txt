@@ -1,57 +1,57 @@
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~
-$ pwd
-/c/Users/Пользователь
+1) Пользователь@DESKTOP-7069A0U MINGW64 ~
+	$ pwd
+	/c/Users/Пользователь
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~
-$ mkdir folder_group_27
+2) Пользователь@DESKTOP-7069A0U MINGW64 ~
+	$ mkdir folder_group_27
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~
-$ cd folder_group_27/
+3) Пользователь@DESKTOP-7069A0U MINGW64 ~
+	$ cd folder_group_27/
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
-$ mkdir f{1,2,3}
+4) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
+	$ mkdir f{1,2,3}
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
-$ ls
-f1/  f2/  f3/
+	Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
+	$ ls
+	f1/  f2/  f3/
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
-$ cd f1
+5) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
+	$ cd f1
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ touch h{1,2,3}.txt k{1,2}.json
+6) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ touch h{1,2,3}.txt k{1,2}.json
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ ls -la
-total 4
-drwxr-xr-x 1 Пользователь 197121 0 Feb 17 01:11 ./
-drwxr-xr-x 1 Пользователь 197121 0 Feb 17 00:38 ../
--rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h1.txt
--rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h2.txt
--rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h3.txt
--rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 k1.json
--rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 k2.json
+	Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ ls -la
+	total 4
+	drwxr-xr-x 1 Пользователь 197121 0 Feb 17 01:11 ./
+	drwxr-xr-x 1 Пользователь 197121 0 Feb 17 00:38 ../
+	-rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h1.txt
+	-rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h2.txt
+	-rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 h3.txt
+	-rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 k1.json
+	-rw-r--r-- 1 Пользователь 197121 0 Feb 17 01:11 k2.json
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ mkdir ff{1,2,3}
+7) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ mkdir ff{1,2,3}
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ ls
-ff1/  ff2/  ff3/  h1.txt  h2.txt  h3.txt  k1.json  k2.json
+8) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ ls
+	ff1/  ff2/  ff3/  h1.txt  h2.txt  h3.txt  k1.json  k2.json
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ vim h1.txt
+9) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ vim h1.txt
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ cat h1.txt
+10) 11) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ cat h1.txt
 
-        Hello world!
-        My name is Aigul
-        I work as a tester
+        	Hello world!
+        	My name is Aigul
+        	I work as a tester
 
-Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
-$ cd ..
+12) Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27/f1
+	$ cd ..
 
 Пользователь@DESKTOP-7069A0U MINGW64 ~/folder_group_27
 $ history > homework_1.txt
